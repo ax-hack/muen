@@ -158,6 +158,13 @@
     </xs:documentation>
    </xs:annotation>
   </xs:attribute>
+  <xs:attribute name="pciConfigSize" type="word64Type" use="optional">
+   <xs:annotation>
+    <xs:documentation>
+     Physical size of the PCI configuration space region.
+    </xs:documentation>
+   </xs:annotation>
+  </xs:attribute>
  </xs:complexType>
 
  <xs:complexType name="processorType">
